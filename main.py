@@ -1,8 +1,8 @@
 import requests
 
-print('~' * 42)
+print('=' * 42)
 print(f'{"Consulta CEP - ViaCEP":^42}')
-print('~' * 42)
+print('=' * 42)
 cep_option = ''
 
 # Verificação do CEP
@@ -17,4 +17,5 @@ cep_data = consumo_api.json()
 print(cep_data)
 
 # Organização das informações
-print('~' * 42)
+print('=' * 42)
+
