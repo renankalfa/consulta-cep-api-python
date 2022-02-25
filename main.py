@@ -18,7 +18,7 @@ def main():
     consumo_api = requests.get(f'https://viacep.com.br/ws/{cep_option}/json/')
     cep_data = consumo_api.json()
 
-    # Organização das informações 72318526
+    # Organização das informações
     sleep(0.5)
     print('=' * 42)
     if 'erro' not in cep_data.keys():
