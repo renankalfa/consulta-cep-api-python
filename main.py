@@ -4,13 +4,13 @@ from time import sleep
 
 def main():
     print('=' * 42)
-    print(f'{"Consulta CEP - ViaCEP":^42}')
+    print(f'          \033[46mConsulta CEP - ViaCEP\033[m')
     print('=' * 42)
     cep_option = ''
 
     # Verificação do CEP
     while not cep_option.isdecimal() or not len(cep_option) == 8:
-        cep_option = input('CEP a ser consultado (8 dígitos)> ')
+        cep_option = input('\033[36mCEP a ser consultado (8 dígitos)>\033[m ')
         if cep_option.isdecimal() is False or len(cep_option) != 8:
             print(f'\033[31mO CEP informado ({cep_option}) é inválido!\033[m')
 
@@ -23,13 +23,13 @@ def main():
     print('=' * 42)
     if 'erro' not in cep_data.keys():
         sleep(0.5)
-        print(f'CEP consultado: {cep_data["cep"]}')
+        print(f'\033[46mCEP consultado:\033[m \033[36m{cep_data["cep"]}\033[m')
         sleep(0.5)
-        print(f'Endereço: {cep_data["logradouro"]} {cep_data["complemento"]}')
+        print(f'\033[43mEndereço:      \033[m \033[33m{cep_data["logradouro"]} {cep_data["complemento"]}\033[m')
         sleep(0.5)
-        print(f'Localidade/UF: {cep_data["localidade"]}-{cep_data["uf"]}')
+        print(f'\033[42mLocalidade/UF: \033[m \033[32m{cep_data["localidade"]}-{cep_data["uf"]}\033[m')
         sleep(2)
-    else:
+    else:       # 01001000
         print(f'\033[31mCEP {cep_option} inválido!\033[m')
     print('=' * 42)
     sleep(0.5)
