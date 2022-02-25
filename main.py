@@ -35,7 +35,7 @@ def main():
     sleep(0.5)
     user_option = input('Deseja consultar outro CEP [S/N]? ').upper()
     while user_option not in 'SN':
-        print(f'\033[31mErro! {user_option} é inválido!')
+        print(f'\033[31mErro! {user_option} é inválido!\033[m')
         user_option = input('Deseja consultar outro CEP [S/N]? ').upper()
     if user_option.upper() == 'S':
         print('\n' * 100)
