@@ -32,7 +32,7 @@ Fiquei muito tentado a adicionar esses recursos, porém, deixei um pouco o meu l
 
 ## Ferramentas utilizadas
 - PyCharm (Python IDE);
-- Git/GitHub;
+- Git/GitHub.
 
 #
 
