@@ -30,6 +30,10 @@ Apesar de ter feito um projeto simples, conhecer um pouco mais sobre como consum
 
 Fiquei muito tentado a adicionar esses recursos, porém, deixei um pouco o meu lado perfeccionista e finalizei esse mini projeto. Pode ser que futuramente eu venha melhorar mais esse projeto.
 
+## Ferramentas utilizadas
+- PyCharm (Python IDE);
+- Git/GitHub;
+
 #
 
 <div align="center">
