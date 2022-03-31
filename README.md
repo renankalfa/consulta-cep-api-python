@@ -21,7 +21,7 @@ Foi usada a API do [ViaCEP](https://viacep.com.br). Em que é um webservice grat
 
 ## Outros planos e ideias
 Apesar de ter feito um projeto simples, conhecer um pouco mais sobre como consumir APIs abriu bastante a minha mente no sentido das ideias e possibilidades de projeto. Um exemplo é esse projeto, que pensei em incrementar com outras duas APIs:
-- 1° incremento com API: por das informações da API do ViaCEP, conseguir extrair dados sobre a localidade e apresentar alguns dados estatísticos por meio da API do [IBGE](https://servicodados.ibge.gov.br/api/docs).
+- 1° incremento com API: por meio das informações da API do ViaCEP, conseguir extrair dados sobre a localidade e apresentar alguns dados estatísticos por meio da API do [IBGE](https://servicodados.ibge.gov.br/api/docs).
 - 2° incremento com API: com a [API do Google Maps](https://developers.google.com/maps/documentation/maps-static/overview), conseguir uma imagem do Google Maps da localidade do CEP consultado. 
 
 <div align="center">
