@@ -1,4 +1,4 @@
-# Consulta de informações do endereço com API
+# Consulta de Informações do Endereço com API
 
 Depois de comprar um curso na Udemy sobre [REST APIs com Python e Flask](https://www.udemy.com/course/rest-apis-com-python-e-flask/), devidi estudá-lo depois de terminar alguns outros, porém, tentado e ansiso para aprender logo, decidi dar uma olhada no assunto. Acabei me deparando com [um vídeo no Youtube](https://www.youtube.com/watch?v=SKlF2PmIkrU&t=618s) e decidi botar em prática para já criar uma maturidade inicial. Eis que surge esse mini projeto.
 
